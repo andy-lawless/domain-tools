@@ -6,7 +6,7 @@ document.getElementById('domain-form').addEventListener('submit', async (e) => {
   resultsDiv.innerHTML = '<p>Loading...</p>';
 
   try {
-    const response = await fetch(`domain-tools/api/crtsh.php?domain=${domain}`);
+    const response = await fetch(`/domain-tools/api/crtsh.php?domain=${domain}`);
     const data = await response.json();
 
     if (data.error) {
