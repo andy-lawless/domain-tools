@@ -1,55 +1,32 @@
-# Node.js and npm
-node_modules/
-npm-debug.log
-yarn-error.log
-package-lock.json
+# Logs and debug files
+*.log
+*.cache
 
-# Vite build output
-dist/
-dist-ssr/
-
-# Environment variables
+# Environment variables and sensitive files
 .env
 .env.local
-.env.development
-.env.test
-.env.production
+config/config.php
 
-# Editor and IDE files
+# Compiled assets
+assets/css/*.css.map
+assets/js/*.js.map
+
+# Cache and session files
+cache/
+sessions/
+
+# Vendor directory (if using Composer)
+vendor/
+
+# IDE and editor files
 .vscode/
 .idea/
-*.sublime-project
-*.sublime-workspace
+*.swp
+*.swo
 
-# macOS
+# System files
 .DS_Store
+Thumbs.db
 
-# Logs
-logs/
-*.log
-*.log.*
-
-# Cache and temporary files
-.cache/
-vite.config.ts.timestamp-*
-
-# TypeScript build info
-*.tsbuildinfo
-
-# Testing and coverage
-coverage/
-
-# TypeScript build artifacts
-*.js
-*.js.map
-*.d.ts
-
-# CSS build artifacts
-*.css
-*.css.map
-
-# Vite build output
-dist/
-
-# Tailwind CSS JIT artifacts
-*.css.tmp
+# cPanel specific
+error_log
