@@ -7,5 +7,5 @@
   </head>
   <body>
     <header class="head">
-      <p><img src="/assets/images/logo.jpg" width="350" height="150" alt="Site Logo"></P>
+      <p><img src="domain-tools/assets/images/logo.jpg" width="350" height="150" alt="Site Logo"></P>
     </header>
