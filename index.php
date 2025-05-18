@@ -1,5 +1,5 @@
-<?php include '/domain-tools/includes/header.php'; ?>
-<?php include '/domain-tools/includes/navbar.php'; ?>
+<?php include '/includes/header.php'; ?>
+<?php include '/includes/navbar.php'; ?>
 
 <div class="container">
   <p>Enter a domain to find its associated subdomains:</p>
@@ -10,4 +10,4 @@
   <div id="results"></div>
 </div>
 
-<?php include '/domain-tools/includes/footer.php'; ?>
+<?php include '/includes/footer.php'; ?>
